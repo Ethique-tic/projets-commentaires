@@ -1,0 +1,191 @@
+[
+    {
+        "title":"Début du web participatif",
+        "text":"Aux débuts des années 2000, nous voyons apparaître les prémices du web participatif, connu aussi sous le nom de Web 2.0. Pour la première fois, on sollicite l’avis de l’internaute. Il s’en suit une phase d’engouement pour les espaces de commentaires, qui sont pensés comme une formidable évolution, et l’interaction avec le lecteur comme le moyen idéal pour améliorer la qualité des débats et des articles. Plusieurs sites proposent désormais cette fonctionnalité. On voit même apparaître des sites d’un genre nouveau comme les réseaux sociaux, où la possibilité de donner son avis et de commenter a une importance primordiale. Parallèlement, un cadre légal commence à se mettre en place pour accompagner cette nouvelle tendance, et cette période se termine en faisant apparaitre un problème nouveau qui découle directement des commentaires : la modération.",
+        "image": "premiere-période.svg",
+        "events":[
+            {
+                "prettydate":"1998",
+                "date":"1998-01-01T00:00:00.000Z",
+                "title":"Dave Winer met en place le premier espace de commentaire sur son blog",
+                "desc":"Pour la première fois, on sollicite à travers un espace de commentaire l'avis de l'internaute."
+            },
+            {
+                "prettydate":"Octobre 2000",
+                "date":"2000-09-30T22:00:00.000Z",
+                "title":"James Hong et Jim Young lancent un site appelé *Hot or Not*",
+                "desc":"'Hot or Not' est un site au fonctionnement simple. L'internaute choisit si la personne sur la photo sur son écran est 'sexy ou non'. Des initiatives similaires avaient déjà été lancées précédemment, mais la particularité de ce site est qu'il est le premier à avoir rencontré un véritable succès."
+            },
+            {
+                "prettydate":"2 avril 2002",
+                "date":"2002-04-01T22:00:00.000Z",
+                "title":"Création de l'entreprise Netino",
+                "desc":" Création de Netino, entreprise d'abord spécialisée dans la création d'espace de partage sur les site web puis qui a évolué vers la modération de ces espaces."
+            },
+            {
+                "prettydate":"Février 2004",
+                "date":"2004-01-31T23:00:00.000Z",
+                "title":"Naissance de FaceBook"
+            },
+            {
+                "prettydate":"21 juin 2004",
+                "date":"2004-06-20T22:00:00.000Z",
+                "title":"Loi n° 2004-575  pour la confiance dans l'économie numérique",
+                "desc":"Les sites web français sont maintenant obligés d'engager des modérateurs et de faire apparaître le bouton \"Signaler un abus\" s'ils ouvrent un espace de commentaires."
+            },
+            {
+                "prettydate":"Octobre 2004",
+                "date":"2004-09-30T22:00:00.000Z",
+                "title":"Concept de Web 2.0",
+                "desc":"Le concept de Web 2.0 est enfin formalisé lors de la conférence tenue par Tim O'Reilly. Il donne un nom à un phénomène qui s'est énormément développé et qui promet d'évoluer encore."
+            }
+        ]
+    }, 
+    {
+        "title": "Déplacement des médias vers le participatif",
+        "text" : "A partir de l’année 2007, le regard sur le participatif n’est plus le même. A l’unanimité tous reconnaissent la nécessité d’une modération des contenus publiés par les internautes. En effet, tous ont fait face à des commentaires hors de propos, « racistes ou diffamatoires » et la loi les oblige à réagir. Le système des commentaires est alors remis en question. Et alors que tout un chacun se demande si laisser l’internaute intervenir ou commenter présente un intérêt réel, on entre dans le cœur de la controverse et les avis commencent à diverger. Se développe alors l’idée qu’il faut parvenir à mettre en valeur les participations pertinentes de l’internaute. Pour ce faire, de nouveaux modèles de gestion des commentaires sont proposés. Mais cette phase se termine par l’échec des commentaires et l’abandon de certains sites qui choisissent finalement de ne plus proposer la possibilité de commenter. La pérennité des espaces de commentaires est alors totalement remise en question…",
+        "image": "seconde-période.svg",
+        "events": 
+        [
+            {
+                "prettydate":"2005",
+                "date":"2005-01-01T00:00:00.000Z",
+                "title":"Apparition d'Agoravox",
+                "desc":"Un site Web d'opinion sur l'actualité alimenté par des rédacteurs volontaires et non professionnels, créé par Carlo Revelli et Joël de Rosnay en mars 2005, et proposant des articles à rédacteurs uniques ou multiples."
+            },
+            {
+                "prettydate":"Mai 2007",
+                "date":"2007-04-30T22:00:00.000Z",
+                "title":"Apparition de Rue89",
+                "desc":"Un site d'opinions sur des faits divers et de société, publiée par le Nouvel Obs et appartenant au groupe L'Obs. À sa création, c'était un site généraliste de débat et d'information ; il fut créé par d'anciens journalistes de Libération. Il est financé par la publicité et les formations qu'ils organisent dans leurs locaux."
+            },
+            {
+                "prettydate":"2008",
+                "date":"2008-01-01T00:00:00.000Z",
+                "title":"Apparition de Médiapart",
+                "desc":"Un site web d'information et d'opinion créé par François Bonnet, Gérard Desportes, Laurent Mauduit et Edwy Plenel. Il est l'un des rares « tout en ligne » grand public payant du marché français de l'information."
+            },
+            {
+                "prettydate":"28 novembre 2008",
+                "date":"2008-11-27T23:00:00.000Z",
+                "title":"Affaire Filippis",
+                "desc":"L'ex-PDG de Libération, Vittorio de Filippis, est  interpellé chez lui et mis en examen à cause d'un commentaire publié par un internaute sous un des articles du journal."
+            },
+            {
+                "prettydate":"25 février 2011",
+                "date":"2011-02-24T23:00:00.000Z",
+                "title":"Décret n° 2011-219 relatif à la conservation et à la communication des données",
+                "desc":"Précise l'application de la loi de 2004 : Les sites web français doivent collecter les données utilisateur (adresse IP, entre autres) pendant un an puis les supprimer."
+            },
+            {
+                "prettydate":"4 septembre 2012",
+                "date":"2012-09-03T22:00:00.000Z",
+                "title":"Invention de nouvelles formes pour interagir avec l'internaute avec Quartz",
+                "desc":"The Atlantic lance le site web “Quartz” en ôtant la possibilité aux lecteurs de s’exprimer en dessous des articles publiés. La raison d’une telle décision fut prise parce que les commentaires laissés par les lecteurs conduisent rarement à des débats bien argumentés et des conversations intéressantes. Pour y remédier, le Quartz optera alors un peu plus tard pour un système d’annotations permettant au lecteur d’annoter un ou plusieurs paragraphes de l’article et ainsi exprimer une opinion sur un sujet bien précis."
+            }
+        ]
+    },
+    {
+        "title": "Changement de perspective sur le participatif",
+        "text" : "A partir de 2012, de nombreux sites décident de fermer en cascade leur espace de commentaires. Si au départ la majorité des sites donnent pour raison l’impertinence des commentaires, on voit apparaitre une nouvelle motivation à cette fermeture. En effet certains sites indiquent qu’avec l’avènement des réseaux sociaux qui font des commentaires leur raison d’être, la place des commentaires n’est plus sur chacun des sites mais uniquement centralisée sur les réseaux sociaux. Ainsi, ne s’agit-il pas d’une évolution du participatif plutôt qu’un abandon du commentaire pur et simple ? Le bilan est mitigé, en effet bien que le nombre de commentaires ne cessent d’augmenter sur ces plateformes, leurs usages se multiplient et leurs abus aussi notamment avec une politisation extrémiste de certains commentaires requérant un nouveau type de modération. De nos jours, la volonté qui prédomine est de parvenir à trouver la bonne formule pour interagir avec l’internaute. De nombreux acteurs continuent à croire au potentiel de cette interaction. On voit donc apparaitre des nouveaux projets prometteurs qui continuent de faire vivre l’espoir du web participatif, lancé 15 ans auparavant.",
+        "events":
+        [
+            {
+                "prettydate":"24 septembre 2013",
+                "date":"2013-09-23T22:00:00.000Z",
+                "title":"Premier cas de fermeture d'espace de commentaire: *Popular Science*",
+                "desc":"Le magazine américain « Popular Science » ferme son espace de commentaires sous prétexte que les commentateurs influencent énormément l’opinion du lecteur ce qui par la suite aura une conséquence significative sur l’opinion publique. Cette dernière jouant un rôle important dans les décisions concernant la poursuite de certaines recherches, il s’avère alors judicieux de ne pas altérer l’avancée technologique ou autre par de tels propos."
+            },
+            {
+                "prettydate":"2014",
+                "date":"2014-01-01T00:00:00.000Z",
+                "title":"Début de The Coral Project",
+                "desc": "Lancement du *Coral Project*, un projet de recherche notamment porté par le *Huffington Post*, le *New York Times* et la fondation *Mozilla*. Ce projet souhaite aujourd'hui remettre en valeur les commentaires les plus pertinents en apportant des solutions techniques, après avoir interrogé plus de 120 média et entreprises."
+            },
+            {
+                "prettydate":"12 avril 2014",
+                "date":"2014-04-11T22:00:00.000Z",
+                "title":"Le *Chicago Sun-Times* suspend l'accès à ses espaces de commentaires",
+                "desc":"De nombreuses questions soulevées par l’équipe du Chicago Sun-Time concernant la qualité des commentaires laissés sur leur site web et le ton pris par ces auteurs conduisent à la suspension des espaces de commentaires pendant une certaine période qui s’étend même jusqu’à maintenant vu que certains articles sont dépourvus de cette option. L’équipe cherche encore des solutions alternatives pour remédier à ces problèmes."
+            },
+            {
+                "prettydate":"aout 2014",
+                "date":"2014-07-31T22:00:00.000Z",
+                "title":"*CNN* ferme discrètement les commentaires sur la plupart de ses publications",
+                "desc":"CNN, la chaîne d’information américaine, ferme discrètement les commentaires sous certains articles et ce, pendant la période de protestation de Ferguson au Missouri. La sélection d’articles se base sur la possibilité d’un débat intéressant intellectuellement parlant et sur la capacité des lecteurs à pouvoir interagir en exprimant des opinion poussées et bien argumentées. Les éditeurs de leur côté interviennent par la modération de ces conversations."
+            },
+            {
+                "prettydate":"7 novembre 2014",
+                "date":"2014-11-06T23:00:00.000Z",
+                "title":"*Reuters* ferme ses espace de commentaires",
+                "desc":"Le rédacteur en chef de Reuters, Dan Colarusso, prétend que, de nos jours, le débat s’est déplacé sur les réseaux sociaux qui offrent une plateforme de partage d’opinions plus avantageuse que celle des espaces de commentaires surtout pour les sujets d’actualité. De plus, ces sites suivent une charte de modération bien définie ce qui leur permet de filtrer les discussions et contrôler les abus."
+            },
+            {
+                "prettydate":"20 novembre 2014",
+                "date":"2014-11-19T23:00:00.000Z",
+                "title":"Le site de Popular tech *Recode* ferme ses espaces de commentaires",
+                "desc":"Le nouveau site du magazine Popular Tech suit la tendance et partage particulièrement l’opinion du rédacteur en chef de Reuters concernant le rôle que jouent les réseaux sociaux dans l’alimentation des débats sur différents sujets affirmant que les réseaux sociaux offrent une opportunité meilleure aux lecteurs de s’exprimer et d’avoir des « feedbacks »."
+            },
+            {
+                "prettydate":"15 decembre 2014",
+                "date":"2014-12-14T23:00:00.000Z",
+                "title":"*The Week* ferme l'accès aux commentaires ce qui fait rage au sein des lecteurs",
+                "desc":"La vague de fermeture des espaces de commentaires continue de plus belle. Cette fois c’est The Week qui en est l’auteur. En effet, accordant beaucoup d’importance à ses lecteurs et respectant leurs opinions et leurs attentes, le site, en vue du lancement d’un nouveau desgin en 2015, préfère se débarrasser radicalement des trolls et des abus qui polluent l’espace des commentaires de plus en plus en se cachant sous de faux profils. De plus, l’équipe de The Week estime que le rôle de leur site se limite dès à présent à fournir l’information et non en débattre, chose qui se fait maintenant sous les réseaux sociaux."
+            },
+            {
+                "prettydate":"27 janvier 2015",
+                "date":"2015-01-26T23:00:00.000Z",
+                "title":"Le site web de *Bloomberg* ferme son espace de commentaires",
+                "desc":"Après des mois d’absence, le site de Bloomberg rouvre ses portes pour accueillir un public plutôt mitigé et assez surpris quant au nouveau look qu’il offre notamment l’absence d’espaces de commentaires en a surpris plus d’un. Topolsky, confiant, explique que la décision a été approuvée par tous surtout que plusieurs sites comme Reuters et Recode ont fait de même. En effet, il affirme que les journalistes préfèrent maintenir un contact externe avec le lecteur sur les réseaux sociaux ou autres car ils ont plus de chances de toucher l’audience vu que les commentateurs ne représentent qu’une minorité."
+            },
+            {
+                "prettydate":"3 février 2015",
+                "date":"2015-02-02T23:00:00.000Z",
+                "title":"*The Guardian* critique la décision de fermer les espaces de commentaires",
+                "desc":"The Guardian commented on the decision to end their own comments section just six days after the Bloomberg report. Guardian CEO Aron Pilhofer said killing off the comments section was “a monumental mistake“"
+            },
+            {
+                "prettydate":"16 juin 2015",
+                "date":"2015-06-15T22:00:00.000Z",
+                "title":"Affaire Delfi AS",
+                "desc":"L'arrêt de la Grande Chambre de la Cour européenne des droits de l'homme tient pour responsable la société estonienne Delfi AS pour les contenus illicites publiés par les internautes sur leurs articles."
+            },
+            {
+                "prettydate":"6 juillet 2015",
+                "date":"2015-07-05T22:00:00.000Z",
+                "title":"Fermeture des commentaires sur *The Verge* pour l'été",
+                "desc":"Devant le désenchantement provoqué par certains commentaires laissés sous leurs publications (emploi d’un ton agressif, propos haineux…etc.), l’équipe de The Verge décide de faire une petite pause pendant l’été en mettant en sourdine les commentaires préservant ainsi la relation qu’ils ont bâtie avec leurs lecteurs sous une base solide et forgée par le respect."
+            },
+            {
+                "prettydate":"7 juillet 2015",
+                "date":"2015-07-06T22:00:00.000Z",
+                "title":"*WIRED* lance un format sans commentaire",
+                "desc":"Le site web du magazine WIRED qui se concentre essentiellement sur l'incidence de la technologie dans les domaines de la culture, de l'économie et de la politique décide de lancer un nouveau format « short post » n’incluant en aucun cas la possibilité de commenter."
+            },
+            {
+                "prettydate":"27 juillet 2015",
+                "date":"2015-07-26T22:00:00.000Z",
+                "title":"*The Daily* ferme ses espaces de commentaires",
+                "desc":"L’équipe de The Daily Dot affirme que vu la position qu’occupe leur site dans la vie publique et plus particulièrement dans les communautés en ligne, l’espace de commentaires se voit être de plus en plus inutile vu que le contenu fourni par leurs publications ne cesse de se déplacer sur les réseaux sociaux où le débat prend une ampleur plus intense. De plus, suite la polémique causée par Gamergate ou Celebgate en 2015, les journaux tout comme les réseaux sociaux essaient désespérément de mettre en marche des dispositifs de lutte contre le troll"
+            },
+            {
+                "prettydate":"19 aout 2015",
+                "date":"2015-08-18T22:00:00.000Z",
+                "title":"*The Daily Beast* ferme ses espaces de commentaire",
+                "desc":"Twitter et Facebook font rage et l’équipe de The Daily Beast n’y est pas passé à côté c’est pour cette raison qu’elle décide en Aout de 2015 de fermer leurs espaces de commentaires en attendant de trouver une alternative plus interactive."
+            },
+            {
+                "prettydate":"5 octobre 2015",
+                "date":"2015-10-04T22:00:00.000Z",
+                "title":"*Vice Motherboard* change de système de dialogue",
+                "desc":"Après plus d’un an de débat acharné sur la question fatidique : Faut-il garder les espaces de commentaires fonctionnels ? la décision est prise et Motherboard ferme la section des commentaires sous prétexte que ce n’est pas le meilleur moyen d’avoir des conversations de qualité. L’équipe s’engage par ailleurs à trouver de nouvelles manières de dialoguer, de s’exprimer, de communiquer, de partager et de critiquer parce que tous comme ses lecteurs ils privilégient la qualité à la quantité."
+            },
+            {
+                "prettydate":"6 octobre 2015",
+                "date":"2015-10-05T22:00:00.000Z",
+                "title":"*Reddit* lance un nouveau site sans commentaire",
+                "desc":"En dépit du nom qu’il porte, le nouveau site lancé par Reddit ne comportera pas de système de classement ou de vote et encore moins d’espaces de commentaires. C’est une nouvelle expérience pour le magazine Reddit qui veut reprendre les choses en main en tout ce qui concerne le contrôle des contenus abusifs sur le site. Néanmoins, chaque publication sur Upvoted sera rajoutée sur le forum de Reddit où le lecteur aura l’occasion de la commenter."
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Init de la frise</title>
+</head>
+<body>
+	<h2>Init de la frise</h2>
+	<form action="/initfrise" method="post">
+		<label for="csv">Le CSV</label><br>
+		<textarea id="csv" name="csv" cols="100" rows="30"></textarea><br>
+		<label for="separator">Séparateur CSV : </label> <input type="text" id="separator" name="separator" value=";"><br>
+		<label for="overwrite"><input type="checkbox" name="overwrite" id="overwrite"> Supprimer l'ancien contenu ?</label><br>
+		<input type="submit" value="Envoyer">
+	</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+	"name": "etic",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "nodemon ./app.js"
+	},
+	"dependencies": {
+		"body-parser": "~1.15",
+		"cookie-parser": "~1.4",
+		"debug": "~2.2",
+		"ejs": "~2.4",
+		"express": "~4.13",
+		"joi": "~6.4",
+		"mysql": "~2.6",
+		"cookie-session": "~1.2",
+		"morgan": "~1.6"
+	}
+}
