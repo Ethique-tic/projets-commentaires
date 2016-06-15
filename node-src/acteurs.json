@@ -34,6 +34,14 @@
                 {
                     "nom" : "The Washington Post",
                     "id" : 7
+                },
+                {
+                    "nom" : "Marianne",
+                    "id" : 14
+                },
+                {
+                    "nom" : "Atlantico",
+                    "id" : 15
                 }
             ]
         }, {
@@ -78,8 +86,8 @@
     "questions" : [
         {
             "enonce" : "Faut-il faire vivre les commentaires sous les articles de presse",
-            "side_1" : [0, 1, 4, 7, 8, 10, 12, 13],
-            "side_2" : [2, 3, 5, 9],
+            "side_1" : [0, 1, 4, 7, 8, 10, 12, 14],
+            "side_2" : [2, 3, 5, 9, 15],
             "side_name" : ["Pour", "Contre"],
             "commentaires" : {
                 "0": {"commentaire":"Moyennant un abonnement, Le Monde offre la possibilité à ses lecteurs de commenter ses articles.", "url" : ""}, 
@@ -92,8 +100,9 @@
                 "8": {"commentaire":"Les commentaires enrichissent le débat.","url":""},
                 "9": {"commentaire":"Les trolls occupent complètement les espaces de commentaire et empêchent, par leur attitude, les autres de commenter. Dès lors, il ne sert à rien de les conserver : « Il y a un jeu auquel j’aime jouer de temps à autres, écrit sur The Atlantic Adam Felder, spécialiste de l’analyse de l’univers numérique. Combien faut-il que je lise de commentaires sur Internet pour perdre foi en l’humanité? Trop souvent la réponse est: un commentaire.»","url":"http://www.slate.fr/story/88227/commentaires-articles-ruinent-medias"},
                 "10": {"commentaire":"Franz, 66 ans, voit dans le commentaire le moyen de «formuler sa pensée et avancer dans sa réflexion». Roger affirme quant à lui que «les analyses sont parfois très pointues, donc positives pour tout un chacun».","url":"http://www.marianne.net/Qui-sont-les-trolls-qui-nous-pourrissent-Internet%C2%A0_a227427.html"},
-                "12": {"commentaire":"Il ne faut pas laisser les trolls gagner et dominer cet espace, mais se concentrer sur les commentaires pertinents : «Le souci aujourd'hui n'est pas de savoir comment on musèle les commentaires agressifs, mais comment on fait remonter les plus pertinents pour ne pas dégrader l'image de marque du site Internet.»","url":"http://www.lettreaudiovisuel.com/si-vous-ne-modrez-plus-les-commentaires-cest-le-chaos/"},
-                "13": {"commentaire":"Voir Rue89 (Journal).","url":""}
+                "12": {"commentaire":"Il ne faut pas laisser les trolls gagner et dominer cet espace, mais se concentrer sur les commentaires pertinents. Jérémie Mani, président de Netino : «Le souci aujourd'hui n'est pas de savoir comment on musèle les commentaires agressifs, mais comment on fait remonter les plus pertinents pour ne pas dégrader l'image de marque du site Internet.»","url":"http://www.lettreaudiovisuel.com/si-vous-ne-modrez-plus-les-commentaires-cest-le-chaos/"},
+                "14": {"commentaire":"Il s'agit d'un moyen de connaître ses lecteurs et de générer du trafic : «Bien que seule une infime partie des lecteurs commentent un article (un peu moins de 1 % sur marianne.net ), cela reste un moyen de faire connaissance avec son lectorat. «'Les commentaires permettent de cibler les sujets qui provoquent des discussions, et parfois de faire des choix éditoriaux en conséquence', explique le développeur numérique d'un site d'actualités. Avant de confesser un autre avantage, plus pragmatique : 'C'est aussi un multiplicateur de trafic sur le site. Des lecteurs fidèles qui viennent commenter avec régularité, c'est l'assurance d'un nombre de pages vues important. Cela permet ensuite de vendre des espaces de publicité.'»","url":"http://www.marianne.net/Qui-sont-les-trolls-qui-nous-pourrissent-Internet%C2%A0_a227427.html"},
+                "15": {"commentaire":"Personne ne lit les commentaires en bas d'article. Benoît  Thieullin : «En  définitive,  le  commentaire  de  bas de  page  est  devenu  pour  les  médias  la  «soupape participative», pour se donner une image ouverte et interactive, sans aucun traitement derrière en réalité. Résultat : on ne lit quasiment plus les commentaires de bas d'article.» ","url":"http://www.atlantico.fr/decryptage/commentaires-article-utilisateur-169435.html"}
             }
         },
 
@@ -114,21 +123,26 @@
 
         {
             "enonce" : "La modération est-elle efficace ?",
-            "side_1": [0, 1, 4, 7, 12, 13],
-            "side_2" : [9],
+            "side_1": [0, 12],
+            "side_2" : [9, 14],
             "side_name" : ["Oui", "Non"],
             "commentaires" : {
-                "0": {"commentaire":"Oui. Le Monde consacre un article entier à la modération effectuée par Netino.","url":"http://www.lemonde.fr/idees/article/2011/07/19/a-commenter-avec-moderation_1549599_3232.html"}
+                "0": {"commentaire":"Oui. Le Monde consacre un article entier à la modération effectuée par Netino.","url":"http://www.lemonde.fr/idees/article/2011/07/19/a-commenter-avec-moderation_1549599_3232.html"},
+               "12": {"commentaire":"Les chiffres parlent d’eux-mêmes. Netino supprime nombre de commentaires. Ses modérateurs racontent qu’ils rencontrent énormément de contenus choquants. «Au total, au cours de l'année 2015, l'équipe de modération du Monde.fr a traité plus de 4 millions de commentaires, tous supports confondus.» ","url":"http://www.lemonde.fr/idees/article/2016/03/19/le-commentateur-et-le-moderateur_4886233_3232.html"},
+                "9": {"commentaire":"On trouve encore des contenus choquants, même après modération. « ce n'est pas la première fois que je suis frappée par les propos démagogues et racistes que j'y lis (...). Je trouve que ce type de forums, sans modération, ressemble à un café du commerce. La lepénisation des idées est partout, merci de ne pas y participer. Vous avez un rôle à jouer en tant que grand quotidien d'information.» écrivait une lectrice au Monde.","url":"http://www.lemonde.fr/idees/article/2016/03/19/le-commentateur-et-le-moderateur_4886233_3232.html"},
+                "14":{"commentaire":"Les trolls, certains extrémistes, sont habiles à déjouer les chartes de modération et à marcher sur la ligne.«Et, aujourd'hui, ils savent mieux que personne comment s'y prendre pour contourner les chartes de modération.»", "url":"http://www.marianne.net/Qui-sont-les-trolls-qui-nous-pourrissent-Internet%C2%A0_a227427.html"}            
             }
         },
 
         {
             "enonce" : "Faut-il bannir l'anonymat des commentaires ?",
-            "side_1": [7, 11],
-            "side_2" : [1, 12],
+            "side_1": [7,14],
+            "side_2" : [12],
             "side_name" : ["Oui", "Non"],
             "commentaires" : {
-                "0": {"commentaire":"L'anonymat est un principe fondateur du site qui doit être conservé", "url":""}
+                "7": {"commentaire":"Sous couvert de l’anonymat, les commentateurs tiennent des propos qu’ils n’oseraient pas tenir d’ordinaire : «Si les attaques  bêtes et méchantes et les invectives sont  monnaie courante sur le Web, c'est  aussi parce  qu'elles sont  facilitées  par  le  principe  de  l'anonymat.  De  l'avis  général,  se  planquer  derrière  un  pseudo  autorise  des  interventions que l'on ne se permettrait jamais dans la vie.»", "url":"http://www.marianne.net/Qui-sont-les-trolls-qui-nous-pourrissent-Internet%C2%A0_a227427.html"},                 
+                "14":{"commentaire":"La véritable liberté d’expression ne se dissimule pas derrière l’anonymat. Arianna Huffington : «I feel that freedom of expression is given to people who stand up for what they say and [are] not hiding behind anonymity»", "url":"http://www.huffingtonpost.com/bryan-appleyard/internet-anonymity_b_3797884.html"},
+                "12":{"commentaire":"L’anonymat est source de sécurité  pour  certains  (victimes de  persécutions  autrement par  exemple), les  autres s’assument de plus en plus sous leur vrai nom. Jérémie Mani, président de Netino : «Sur le fond, les langues se délient : les commentaires s'écrivent de plus en plus de manière assumée, non anonyme. Les gens signent avec leur nom et prénom des propos qui peuvent être racistes ou choquants. Ils n'ont plus besoin de se cacher, ils assument.»", "url":"http://www.lettreaudiovisuel.com/si-vous-ne-modrez-plus-les-commentaires-cest-le-chaos/"}
             }
         }
     ]

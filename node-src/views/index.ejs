@@ -25,12 +25,22 @@
 	<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="css/animate.css">
+
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+
+    <!-- WOW.js -->
+    <script src="/static/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+
 
 </head>
 
@@ -58,7 +68,7 @@
 					<li><a class="page-scroll" href="#intro">Introduction</a></li>
 					<li><a class="page-scroll" href="#acteurs">Acteurs</a></li>
 					<li><a class="page-scroll" href="#frise">Historique</a></li>
-					<li><a class="page-scroll" href="#debats">Arbre des débats</a></li>
+                    <!--<li><a class="page-scroll" href="#debats">Arbre des débats</a></li>-->
 					<li><a class="page-scroll" href="#analyses">Nos analyses</a></li>
 				</ul>
 			</div>
@@ -72,12 +82,12 @@
 		<div class="intro-body">
 			<div class="container">
 				<div class="row">
-					<h1 class="brand-heading">&laquo; Faut il faire vivre les zones de commentaires sur les articles de presse ? &raquo;</h1>
+					<h1 class="brand-heading">&laquo; Faut-il faire vivre les commentaires sous les articles de presse ? &raquo;</h1>
 
-					<p>
+					<p class="wow slideInLeft">
 						De nos jours, le participatif n'étonne plus. En effet, les internautes ne remettent plus en
 						question leur droit de commenter à tout moment et en tout lieu. Pourtant, il n'en a pas toujours
-						été ainsi. En particuler, comment en est-on arrivé à intstaurer un système de commentaires sous
+						été ainsi. En particulier, comment en est-on arrivé à instaurer un système de commentaires sous
 						les articles de presse ? Cette manière d'échanger est-elle la plus pertinente ? Quelles sont les
 						alternatives proposées ?
 					</p>
@@ -95,21 +105,24 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Présentation de la controverse</h2>
 
-				<p>Aujourd’hui internet est un medium clé pour les sites de presse. En effet la majorité de la
-					transmission d’information se fait maintenant sur internet. La plupart de ces sites proposent des
-					espaces de commentaires pour permettre aux lecteurs de réagir sur le sujet, d’exprimer leur point de
-					vue et d’engager un débat. Cependant en réalité seule une minorité des commentaires donnent un
-					retour constructif sur l’article ou lancent un débat. Les sites de presse se demandent donc s’il y a
-					un réel intérêt à faire vivre un espace de commentaires sous leurs articles, d’autant plus que la
-					loi les oblige à modérer ces espaces d’échange, ce qui peut leur coûter en temps ou en argent.
+				<p>De nos jours, la grande majorité de la transmission d’information se fait au travers d'Internet. 
+				La presse a investi cet espace et la plupart des sites de presse dédient une zone en bas de chaque article où le 
+				lecteur a la possibilité de s'exprimer. Laisser la parole à l'internaute est une évolution apportée avec l'apparition 
+				du Web 2.0, encore appelé Web participatif.
+				Offrir un lieu où le lecteur peut réagir sur le sujet proposé pour créer de l'échange et du débat, telle était l'idée
+				des sites de presse.
+				Malheureusement, force est de constater que seule une faible proportion des commentaires recueillis présentent une réelle
+				pertinence. Nombreux sont les trolls qui arpentent et saturent les sites de presse par leurs commentaires borderline,
+				où encore les extrémistes qui tentent de faire passer leurs discours à renfort de commentaires tout faits et recasés sans même s'inscrire dans 
+				le contexte de l'article.
+				Ainsi, il est légitime pour les sites de presse d'évaluer l'intérêt de maintenir une zone de commentaire sous leurs articles, d’autant plus que la
+				loi oblige à modérer ces espaces d’échange, ce qui peut se révéler coûteux en temps ou en argent.
 				</p>
 
-				<p>C’est Dave Winer qui fut le premier développeur à proposer un espace de commentaire sur son blog.
-					Fondateur de plusieurs entreprises de développement de logiciel, il publie de nombreux articles liés
-					à la technologie et aux sciences en général. Il met alors en place en 1998 un espace de commentaire
-					sous chacun de ses articles pour permettre aux utilisateurs de réagir aux nouvelles qu’il publie.
-					Cependant 14 ans plus tard il décide de désactiver cette fonction sur son propre site, constatant
-					qu’un tiers des 30 000 commentaires présents relevaient de l’arnaque et du spam.
+				<p> Un exemple frappant de remise en question du système des commentaires est celui du blog de Dave Winer, où il 
+				a publié et publie encore de nombreux articles liés à la technologie et aux sciences en général.
+				Premier développeur à mettre en place en 1998 une zone de commentaire sur son blog, il décide de désactiver cette fonction 
+				14 ans plus tard, constatant qu’un tiers des 30 000 commentaires présents relevaient de l’arnaque et du spam.
 				</p>
 
 				<p> Cela délimite donc plusieurs phases dans l’histoire du débat des commentaires, la première s’inscrit
@@ -162,7 +175,7 @@
 								<% if (comment.url) { %><a href='<%= comment.url %>' class='fa fa-link'></a><% } %><%
 							}
 							%>
-							"><%= actors[id].name %></button>
+                            "><img src="/static/img/ico-<%= actors[id].type %>.svg" width="64px" /><br /><%= actors[id].name %></button>
 							<% }); %>
 						</td>
 						<% }); %>
@@ -228,56 +241,30 @@
 		</ul>
 	</section>
 
+    <!--
 	<section id="debats" class="content-section text-center container">
 		<div class="col-lg-8 col-lg-offset-2">
 			<h2>Arbre des débats</h2>
 		</div>
         <img src="/static/img/arbre_debat2.png" width="100%" />
     </section>
+    -->
 
 	<section id="analyses" class="content-section text-center container">
 		<div class="col-lg-8 col-lg-offset-2">
 			<h2>Nos analyses</h2>
 		</div>
 		<div class="col-md-10 col-md-offset-1">
-			<a href="#" class="btn btn-success"><span class="fa fa-download"></span> Nous sommes désolé, mais le rapport du juriste n'est pas disponible</a>
+			<a href="/static/rapports/juriste.pdf" class="btn btn-success"><span class="fa fa-download"></span> Télécharger le rapport du juriste</a>
 			<a href="/static/rapports/journaliste.pdf" class="btn btn-success"><span class="fa fa-download"></span> Télécharger le rapport du journaliste</a>
 			<a href="/static/rapports/explorateur-web.pdf" class="btn btn-success"><span class="fa fa-download"></span> Télécharger le rapport de l'explorateur web</a>
 		</div>
 	</section>
 
-	<!-- Acteurs -->
-	<!--
-	<section id="acteurs" class="content-section text-center container">
-		<div class="row"><div class="col-lg-8 col-lg-offset-2">
-			<h2>Carte des acteurs</h2>
-		</div></div>
-		<div class="row">
-			<div class="col-lg-10">
-				<img src="/static/img/premiere-période.svg" alt="Carte des acteurs, première période">
-			</div>
-			<div class="col-sm-2">
-				<ul class="actor-list nav">
-					<% /* acteurs.forEach (function (cat) { %>
-					<li>
-						<span class="actor-sublist-title"><%= cat.title %></span>
-						<ul class="actor-sublist nav">
-							<% cat.names.forEach (function (name) { %>
-							<li><%= name %></li>
-							<% }); %>
-						</ul>
-					</li>
-					<% }); */ %>
-				</ul>
-			</div>
-		</div>
-	</section>
-	-->
-
 	<!-- Footer -->
 	<footer>
 		<div class="container text-center">
-			<p>Copyright &copy; Alexis Bauvin 2016<%= (new Date ()).getFullYear() > 2016 ? "-" + (new Date ()).getFullYear() : "" %></p>
+			<p>Copyright &copy; Alexis Bauvin 2016<%= (new Date ()).getFullYear() > 2016 ? "-" + (new Date ()).getFullYear() : "" %>, contribution de Kamélia Daudel, Meriem Kachouri, Paul Fleutry, Hugo Picq, Romain Rey et Alexandre Janniaux</p>
 		</div>
 	</footer>
 

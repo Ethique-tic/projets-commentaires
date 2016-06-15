@@ -6,6 +6,6 @@ module.exports = {
 		host           : 'mysql',
 		user           : 'etic',
 		password       : 'trollarmy',
-		database       : 'etic'
+		database       : 'etic' 
 	}
 };

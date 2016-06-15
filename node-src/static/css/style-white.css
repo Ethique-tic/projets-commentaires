@@ -247,6 +247,9 @@ h3.scroll-lock.locked::before {
 	border-radius: 5px;
 	border: none;
 	position: relative;
+    width: 150px;
+    height: 100px;
+    margin:5px;
 }
 .actors-container .actor.fa.fa-comment-o:before {
 	position: absolute;
