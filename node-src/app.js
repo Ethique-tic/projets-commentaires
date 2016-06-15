@@ -3,7 +3,6 @@ var express = require ('express'),
 	http = require ('http').Server (app),
 	path = require ('path'),
 	bodyParser = require ('body-parser').urlencoded ({ extended: false }),
-	mysql = require ('mysql'),
 	session = require('cookie-session'),
 	crypto  = require ("crypto"),
 	joi	= require ("joi"),
@@ -12,8 +11,6 @@ var express = require ('express'),
 
 var prod = (process.env.NODE_ENV || 'production') == 'production';
 
-global.cfg = require (prod ? './config.prod.js' : './config.dev.js');
-global.pool = mysql.createPool (cfg.mysql);
 global.utils = require ("./utils");
 
 // view engine setup
