@@ -260,6 +260,11 @@ h3.scroll-lock.locked::before {
 input[type=radio][name=question] {
 	display: none;
 }
+
+label.question:hover {
+    background:#CCC;
+}
+
 .question-container {
 	display: none;
 }

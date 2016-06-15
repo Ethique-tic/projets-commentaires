@@ -164,8 +164,8 @@
 			<div id="question-<%= qId %>" class="question-container">
 				<table class="table table-bordered table-striped">
 					<thead><tr>
-						<th><%= question.side_name[0] %></th>
-						<th><%= question.side_name[1] %></th>
+						<th style="font-size:200%;text-align:center;"><%= question.side_name[0] %></th>
+						<th style="font-size:200%;text-align:center;"><%= question.side_name[1] %></th>
 					</tr></thead>
 					<tbody><tr>
 						<% [question.side_1, question.side_2].forEach (function (side) { %>
@@ -268,7 +268,7 @@
 	<!-- Footer -->
 	<footer>
 		<div class="container text-center">
-			<p>Copyright &copy; Alexis Bauvin 2016<%= (new Date ()).getFullYear() > 2016 ? "-" + (new Date ()).getFullYear() : "" %>, contribution de Kamélia Daudel, Meriem Kachouri, Paul Fleutry, Hugo Picq, Romain Rey et Alexandre Janniaux</p>
+            <p>Copyright &copy; Alexis Bauvin 2016<%= (new Date ()).getFullYear() > 2016 ? "-" + (new Date ()).getFullYear() : "" %></p><p>Contributions de Kamélia Daudel, Meriem Kachouri, Paul Fleutry, Hugo Picq, Romain Rey et Alexandre Janniaux</p>
 		</div>
 	</footer>
 
