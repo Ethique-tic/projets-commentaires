@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# Force nodemon to restart the node server
+touch app.js
+
 msg="$(git log -1 --pretty=%B)"
+echo -e "$msg"
 
 githubPath="/home/etic/projets-commentaires/node-src"
 rm -rf "$githubPath/*"
